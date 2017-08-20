@@ -1,0 +1,59 @@
+html {
+  background-color: #F6F6EF;
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+}
+
+body {
+  margin: 5px;
+}
+
+header {
+  background-color: #FF6600;
+  margin: 0;
+  padding: 5px 10px;
+
+}
+
+h3 {
+  font-family: Courier, monospace;
+  display: inline;
+  color: white;
+  font-weight: bold;
+}
+
+header h4 {
+  font-size: .9em;
+  display: inline;
+  margin-left: 30%;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+header:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+    }
+header { display: inline-block; }
+* html header { height: 1%; }
+header { display: block; }
+
+
+img {
+  width: 19%;
+}
+
+.list {
+  font-weight: bolder;
+
+}
+
+.list-title {
+  margin-left: 10px;
+  font-family: Verdana;
+  font-weight: 900;
+}
